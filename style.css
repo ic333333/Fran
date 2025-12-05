@@ -53,6 +53,7 @@ body {
     .posts {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .post-img {
@@ -83,6 +84,11 @@ body {
 
 
 @media screen and (min-width: 1440px) {
+
+    .posts {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .id .nome {
         font-size: 50px;
@@ -125,6 +131,13 @@ body {
 
 }
 
+@media screen and (min-width: 1658px) {
+    .posts {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (min-width: 1864px) {
       .posts {
         height: 550px;
@@ -142,8 +155,8 @@ body {
 @media screen and (min-width: 1920px) {
 
     .posts {
-        height: 550px;
-        gap: 150px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .post-img {
