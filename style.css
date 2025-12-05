@@ -1,0 +1,162 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(158, 120, 89);
+    margin: 0;
+    font-family: cursive;
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(235, 183, 88);
+    margin: 10px 10px;
+    justify-content: center;
+}
+
+.posts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 60px;
+    background-color: rgb(235, 183, 88);
+    margin: 10px 10px;
+}
+
+.posts img {
+    border-style: dotted;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    background: url(./gatoprofile.gif);
+    border-style: dotted;
+    margin: 0;
+}
+
+
+.id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome, .idade, .hobbie {
+    margin: 2px 0; /* Espaçamento vertical entre os textos */
+}
+
+@media screen and (max-width: 1024px) {
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-img {
+        width: 200px;
+    }
+
+    .id .idade {
+        display: none;
+    }
+
+    .id .hobbie {
+        display: none;
+    }
+
+    .id .nome {
+        font-size: 30px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .profile {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .id .nome {
+        font-size: 50px;
+    }
+
+    .id .idade {
+        font-size: 20px;
+    }
+
+    .id .hobbie {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1680px) {
+
+    .id .nome {
+        font-size: 50px;
+    }
+
+    .id .idade {
+        font-size: 20px;
+    }
+
+    .id .hobbie {
+        font-size: 20px;
+    }
+
+    .posts {
+        gap: 135px;
+        height: 475px;
+        padding-top: 20px;
+    }
+
+    .id {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (min-width: 2560px) {
+
+    .posts {
+        height: 950px;
+        gap: 130px;
+    }
+
+    .post-img {
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .id .nome {
+        font-size: 60px;
+        margin-top: 20px;
+
+    }
+
+    .id .hobbie {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .id .idade {
+        font-size: 32px;
+    }
+
+    .profile {
+       margin-top: 50px;
+    }
+
+
+
+}
