@@ -125,6 +125,20 @@ body {
 
 }
 
+@media screen and (min-width: 1920px) {
+
+    .posts {
+        height: 550px;
+        gap: 150px;
+    }
+
+    .post-img {
+        width: 305px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+}
 
 @media screen and (min-width: 2560px) {
 
