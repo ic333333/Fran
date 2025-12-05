@@ -23,6 +23,7 @@ body {
     padding: 60px;
     background-color: rgb(235, 183, 88);
     margin: 10px 10px;
+    justify-content: space-between;
 }
 
 .posts img {
@@ -171,7 +172,7 @@ body {
 
     .posts {
         height: 950px;
-        gap: 130px;
+        justify-content: space-between;
     }
 
     .post-img {
@@ -201,3 +202,4 @@ body {
 
 
 }
+
